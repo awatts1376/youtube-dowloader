@@ -1,0 +1,28 @@
+{
+  "name": "ytdl",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@inkline/config": "^1.0.0",
+    "@inkline/plugin": "^1.0.0",
+    "@types/node": "^18",
+    "@types/ws": "^8.5.4",
+    "nuxt": "^3.4.2",
+    "sass": "^1.0.0"
+  },
+  "dependencies": {
+    "@inkline/inkline": "4.0.0-rc.31",
+    "@types/fluent-ffmpeg": "^2.1.21",
+    "fluent-ffmpeg": "^2.1.2",
+    "jszip": "^3.10.1",
+    "ws": "^8.13.0",
+    "youtubei": "^1.1.2",
+    "ytdl-core": "^4.11.5"
+  }
+}
